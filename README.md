@@ -4,7 +4,9 @@
              AMI SCEWIN BIOS EDITOR — QUICK START GUIDE
 ========================================================================
 Author: RobTech
+
 Platform Requirements: Windows 10 / 11 (64-bit Only)
+
 Privilege Context: Administrative Access Required
 
 This visual dashboard tool allows you to safely read, modify, and write 
@@ -21,8 +23,11 @@ where you extracted this tool.
 Your folder MUST look like this before running the application:
 
   📁 Your Folder Name/
+  
    ├── AMI SCEWIN BIOS Editor - by RobTech.exe (The Editor)
+   
    ├── scewin_64.exe         (The core AMI flash binary)
+   
    └── amifldrv64.sys        (The core AMI ring-0 motherboard driver)
 
 If 'scewin_64.exe' or 'amifldrv64.sys' are missing or located in a 
